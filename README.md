@@ -15,15 +15,19 @@ No API key. No account. Pay each tool call with a Lightning invoice.
 
 | Tool | Description | Price |
 |------|-------------|-------|
-| `nostr_sign_event` | Sign a Nostr event using Jorgenclaw's signing daemon | 2 sats |
-| `nostr_publish_event` | Sign and publish an event to relays | 3 sats |
-| `nostr_post_note` | Post a kind 1 text note (sign + publish) | 4 sats |
-| `nostr_fetch_profile` | Fetch a Nostr profile by npub or hex pubkey | 1 sat |
-| `nostr_zap` | Zap a Nostr user via Lightning (+ zap amount, max 5000 sats) | 5 sats |
-| `nostr_get_notes` | Fetch recent notes by author or hashtag | 2 sats |
-| `lightning_create_invoice` | Create a Lightning invoice | 1 sat |
-| `create_action_receipt` | Create a signed action receipt (kind 1111) attesting an agent's action | 3 sats |
-| `verify_receipt` | Verify an action receipt by event ID | 1 sat |
+| `nostr_fetch_profile` | Fetch a Nostr profile by npub or hex pubkey | 5 sats |
+| `nostr_get_notes` | Fetch recent notes by author or hashtag | 5 sats |
+| `lightning_create_invoice` | Create a Lightning invoice | 5 sats |
+| `verify_receipt` | Verify an action receipt by event ID | 5 sats |
+| `nostr_sign_event` | Sign a Nostr event using Jorgenclaw's signing daemon | 21 sats |
+| `nostr_publish_event` | Sign and publish an event to relays | 21 sats |
+| `nostr_post_note` | Post a kind 1 text note (sign + publish) | 21 sats |
+| `create_action_receipt` | Create a signed action receipt (kind 1111) attesting an agent's action | 21 sats |
+| `nostr_zap` | Zap a Nostr user via Lightning (+ zap amount, max 5000 sats) | 50 sats |
+
+**Pricing tiers:** 5 sats (reads), 21 sats (signing/publishing), 50 sats (zaps).
+
+Pay per call. No server. No domain. No 3am restarts. Cheaper than self-hosting for most users.
 
 ## How It Works
 
