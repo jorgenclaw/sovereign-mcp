@@ -2,6 +2,8 @@
 
 Lightning-gated MCP server for Nostr signing, publishing, and verifiable agent actions. Pay per call in sats.
 
+[![Nostr service for AI Agents MCP server](https://glama.ai/mcp/servers/jorgenclaw/sovereign-mcp/badges/card.svg)](https://glama.ai/mcp/servers/jorgenclaw/sovereign-mcp)
+
 ## Connect
 
 ```
