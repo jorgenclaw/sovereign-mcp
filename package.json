@@ -1,0 +1,10 @@
+{
+  "name": "sovereign-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lightning-gated Nostr MCP service. Hosted at https://mcp.jorgenclaw.ai/mcp",
+  "scripts": {
+    "build": "echo 'No build required - hosted service'",
+    "start": "node proxy.js"
+  }
+}
